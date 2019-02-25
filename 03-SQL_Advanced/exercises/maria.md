@@ -43,7 +43,8 @@ INNER JOIN
     GROUP BY state) groupedmd 
 ON md.state = groupedmd.state
 AND md.all_causes = groupedmd.max_death
-WHERE year != 2016```
+WHERE year != 2016
+```
 
 
 
